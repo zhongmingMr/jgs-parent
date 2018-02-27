@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jgs-common" />
+        <module name="jgsmanagerdao" />
+        <module name="jgsmanagerinterface" />
+        <module name="jgsmanagerpojo" />
+        <module name="jgsmanagerservice" />
+        <module name="jgsmanagerweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jgs-common" target="1.7" />
+      <module name="jgs-manager" target="1.7" />
+      <module name="jgs-parent" target="1.7" />
+      <module name="jgsmanagerdao" target="1.7" />
+      <module name="jgsmanagerinterface" target="1.7" />
+      <module name="jgsmanagerpojo" target="1.7" />
+      <module name="jgsmanagerservice" target="1.7" />
+      <module name="jgsmanagerweb" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

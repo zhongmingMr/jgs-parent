@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>jgs-parent</artifactId>
+        <groupId>cn.jgsu</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>jgs-manager</artifactId>
+    <packaging>pom</packaging>
+    <name>jgs-manager Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>cn.jgsu</groupId>
+            <artifactId>jgs-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <modules>
+        <module>../jgsmanagerpojo</module>
+        <module>../jgsmanagerinterface</module>
+        <module>../jgsmanagerservice</module>
+        <module>../jgsmanagerdao</module>
+        <module>../jgsmanagerweb</module>
+    </modules>
+    <!--配置tomcat插件 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <path>/</path>
+                    <port>8080</port>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+
+</project>

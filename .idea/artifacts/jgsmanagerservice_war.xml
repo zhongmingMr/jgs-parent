@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jgsmanagerservice:war">
+    <output-path>$PROJECT_DIR$/jgsmanagerservice/target</output-path>
+    <root id="archive" name="jgs-manager-service.war">
+      <element id="artifact" artifact-name="jgsmanagerservice:war exploded" />
+    </root>
+  </artifact>
+</component>

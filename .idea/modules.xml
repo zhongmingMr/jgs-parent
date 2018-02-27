@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jgs-common/jgs-common.iml" filepath="$PROJECT_DIR$/jgs-common/jgs-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgs-manager/jgs-manager.iml" filepath="$PROJECT_DIR$/jgs-manager/jgs-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgs-manager/jgs-manager-dao.iml" filepath="$PROJECT_DIR$/jgs-manager/jgs-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgs-manager/jgs-manager-pojo.iml" filepath="$PROJECT_DIR$/jgs-manager/jgs-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgs-parent.iml" filepath="$PROJECT_DIR$/jgs-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgsmanagerdao/jgsmanagerdao.iml" filepath="$PROJECT_DIR$/jgsmanagerdao/jgsmanagerdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgsmanagerinterface/jgsmanagerinterface.iml" filepath="$PROJECT_DIR$/jgsmanagerinterface/jgsmanagerinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgsmanagerpojo/jgsmanagerpojo.iml" filepath="$PROJECT_DIR$/jgsmanagerpojo/jgsmanagerpojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgsmanagerservice/jgsmanagerservice.iml" filepath="$PROJECT_DIR$/jgsmanagerservice/jgsmanagerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jgsmanagerweb/jgsmanagerweb.iml" filepath="$PROJECT_DIR$/jgsmanagerweb/jgsmanagerweb.iml" />
+    </modules>
+  </component>
+</project>

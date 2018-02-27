@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jgsmanagerdao:war">
+    <output-path>$PROJECT_DIR$/jgsmanagerdao/target</output-path>
+    <root id="archive" name="jgs-manager-dao.war">
+      <element id="artifact" artifact-name="jgsmanagerdao:war exploded" />
+    </root>
+  </artifact>
+</component>
